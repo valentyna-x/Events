@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+html, body {
+  min-height: 100vh;
+  background: linear-gradient(#e9f0ef, #1c283e);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header,
+.main {
+  padding: 0 calc(50vw - 520px);
+}
+
+.header__title {
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: normal;
+  border-bottom: 1px solid #2f4a4f;
+}
+
+.task_name {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 130%;
+  color: blueviolet;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #28397d;
+  padding: 8px;
+  text-align: left;
+}
+
+.btns {
+  color: #061224;
+  padding: 10px 16px;
+  font-size: 18px;
+  font-weight: 700;
+  background: rgb(192, 216, 230);
+}

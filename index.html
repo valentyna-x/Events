@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework_36_Events</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title">JS Events from Beetroot Academy Homework</h1>
+    </header>
+    <main class="main">
+        <section class="task">
+            <h2 class="task_name"> Task #1 </h2>
+            <div id="displayText">
+               <p> Press Ctrl + E to enter your text </p> 
+            </div>
+        </section>
+
+        <section class="task">
+            <h2 class="task_name"> Task #2 </h2>
+            <div class="table">
+                <table id="Table_data">
+                    <thead>
+                        <tr>
+                            <th onclick="sortTable(0)">№ io</th>
+                            <th onclick="sortTable(1)">Name</th>
+                            <th onclick="sortTable(2)">Quantity</th>
+                            <th onclick="sortTable(3)">Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Shampoo</td>
+                            <td>5</td>
+                            <td>98</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Soap</td>
+                            <td>20</td>
+                            <td>35</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Napkins</td>
+                            <td>50</td>
+                            <td>20</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Shower gel</td>
+                            <td>10</td>
+                            <td>75</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Coditioner</td>
+                            <td>7</td>
+                            <td>86</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Body lotion</td>
+                            <td>9</td>
+                            <td>120</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="task">
+            <h2 class="task_name"> Task #3 </h2>
+                <div class="text_change">
+                    <div id="resizableBox" onmousedown="startResizing(event)">
+                        <p>
+                            Text area
+                        </p>
+                    </div>
+                </div>
+
+        </section>
+ </main>
+<script src="./js/events.js"></script>
+</body>
+</html>
+
